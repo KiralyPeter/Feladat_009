@@ -1,4 +1,4 @@
-# Asztali és mobil aklamazások tantárgy
+# Asztali és mobil aklamazások tantárgy - 2023-11-26
 ### Feladat 009
 
 https://github.com/oktat/tan/blob/master/asztali_mobil/01_OOP.md#feladat-009
