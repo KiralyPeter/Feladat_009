@@ -1,10 +1,10 @@
 /*
-* File: Controllable.java
+* File: Controller.java
 * Author: Király Péter
 * Copyright: 2023, Király Péter
 * Group: Szoft II/1/E
 * Date: 2023-11-26
-* Github: https://github.com/janos/
+* Github: https://github.com/KiralyPeter/Feladat_009.git
 * Licenc: GNU GPL
 */
 
@@ -26,27 +26,22 @@ az adott funkció elindult.
 
 */
 
-public class Controller implements Controllable {
-    public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
-    }
+public class Controller implements Controllable { 
+    
 
     @Override
     public void start() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'start'");
+        System.out.println("A \"start()\" funkció elindult");
     }
 
     @Override
     public void stop() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'stop'");
+        System.out.println("A \"stop()\" funkció elindult");
     }
 
     @Override
     public void restart() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'restart'");
+        System.out.println("A \"restart()\" funkció elindult");
     }
 
    

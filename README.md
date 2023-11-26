@@ -1,18 +1,18 @@
-## Getting Started
+# Asztali és mobil aklamazások tantárgy
+### Feladat 009
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+https://github.com/oktat/tan/blob/master/asztali_mobil/01_OOP.md#feladat-009
 
-## Folder Structure
+Adott a követkeő interfész:
 
-The workspace contains two folders by default, where:
+```java
+public interface Controllable {
+    void start();
+    void stop();
+    void restart();
+}
+```
+Készítsen osztályt Controller néven, amely megvalósítja az interfészt. 
+Az egyes metódusok, csak egy szöveg kiíratásával küldjenek üzenetet, hogy 
+az adott funkció elindult. 
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
